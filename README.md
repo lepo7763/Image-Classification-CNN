@@ -37,7 +37,7 @@ from keras import datasets
 ## How to Run
 Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/Image-Classification-CNN.git
+git clone https://github.com/lepo7763/Image-Classification-CNN.git
 cd Image-Classification-CNN
 ```
 
