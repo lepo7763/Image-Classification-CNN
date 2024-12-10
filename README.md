@@ -40,6 +40,7 @@ Clone the repository:
 git clone https://github.com/lepo7763/Image-Classification-CNN.git
 cd Image-Classification-CNN
 ```
+- Note: Remember to change folder directories within both scripts
 
 ## Training the model:
 ```bash
