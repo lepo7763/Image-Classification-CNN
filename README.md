@@ -6,7 +6,7 @@ A convolutional neural network (CNN) for image classification using the CIFAR-10
 
 ## **Features**
 - Built with **TensorFlow** and **Keras** for efficient deep learning implementation.
-- Trained on the **CIFAR-10 dataset**.
+- Trained on the CIFAR-10 dataset, consisting of 32x32 pixel RGB images.
 - Achieves **70% accuracy** on the test dataset.
 - Implements a three-layer CNN with max-pooling and ReLU activation.
 
@@ -28,7 +28,7 @@ pip install tensorflow keras numpy matplotlib opencv-python
 ```
 
 ## Dataset
-The CIFAR-10 dataset is automatically downloaded and loaded via Keras. Pixel values are normalized to a 0-1 range to improve training performance and model efficiency:
+The CIFAR-10 dataset is automatically downloaded and loaded via Keras. Each image is 32x32 pixels with three color channels (RGB). Pixel values are normalized to a 0-1 range to improve training performance and model efficiency:
 ```python
 from keras import datasets
 (training_images, training_labels), (testing_images, testing_labels) = datasets.cifar10.load_data()
